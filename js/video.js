@@ -9,7 +9,7 @@ function getVid(){
 	temp = document.createElement('img');
 	temp.src = "./brady.png";
 	temp.type = "image";
-	temp.alt = "hello world"
+	temp.alt = "hello world"l;
 	temp.style.float = "left";
 	play.appendChild(temp);
 
@@ -27,7 +27,7 @@ function playVid() {
 } 
 
 function pauseVid() { 
-	video.pause()
+	video.pause();
 	console.log("Pause Video");
 } 
 
@@ -63,7 +63,7 @@ function mute() {
 }
 
 function changeVolume() {
-	video.volume = document.querySelector("#volumeSlider").value * 0.01
+	video.volume = document.querySelector("#volumeSlider").value * 0.01;
 	document.querySelector('#volume').innerHTML = (video.volume * 100) + '%' ;
 	console.log("Volume is " + video.volume);
 }
@@ -71,11 +71,11 @@ function changeVolume() {
 
 function gray() { 
 	video.setAttribute('class','grayscale');
-	console.log("In grayscale")
+	console.log("In grayscale");
 }
 
 function color() {
 	video.setAttribute('class','color');
-	console.log("In color") 
+	console.log("In color"); 
 }
 
