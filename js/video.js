@@ -9,14 +9,14 @@ function getVid(){
 	temp = document.createElement('img');
 	temp.src = "./brady.png";
 	temp.type = "image";
-	temp.alt = "hello world"l;
+	temp.alt = "hello world";
 	temp.style.float = "left";
 	play.appendChild(temp);
 
 	temp = document.createElement('img');
 	temp.src = "./rodgers.png";
 	temp.type = "image";
-	temp.alt = "hello world"
+	temp.alt = "hello world";
 	temp.style.float = "left";
 	pause.appendChild(temp);
 }
